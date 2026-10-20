@@ -1,0 +1,25 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'helvetica neue';
+
+}
+html,body{
+  height:100%;
+  width:100%;
+}
+input{
+  border-color:black;
+}
+.box{
+  height:1000px;
+  width:200px;
+  color: aqua;
+  background-color:black;
+}
+h1{
+  height: 10px;
+  width: fit-content;
+  background-color: grey;
+}

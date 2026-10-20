@@ -1,0 +1,123 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:'helvetica neue';
+    
+}
+html,
+body{
+    height:100%;
+    width:100%;
+}
+.first{
+
+    width:100%;
+    background-color: black;
+    padding :20px;
+    display: flex;
+    align-items: center;
+    gap:20px;
+    flex-wrap: wrap;
+    
+
+    
+}
+.second{
+    height:300px;
+    width:270px;
+    background-color:#fff;
+    border-radius: 20px;
+    padding:20px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    
+
+    
+}
+.top{
+    display :flex;
+    gap:120px;
+}
+
+
+img{
+    height:60px;
+    width:80px;
+    padding:8px 16px;
+    border-top: 50%;
+    
+}
+.center{
+    height:125px;
+    width:100px;
+    padding:20px;
+    
+}
+#bete{
+    background-color: black;
+    color:#fff;
+    padding:20px;
+}
+.bottom{
+    width:300;
+    padding :10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top:2px solid #dbdbdb;
+}
+.job{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    align-items: center;
+    width :100% ;
+}
+.job h6{
+    margin-top:5px; 
+    font-weight:100px;
+    white-space: nowrap;
+    background-color: rgb(226, 223, 223);
+    border-radius: 4px;
+}
+.top button{
+    align-items:center;
+    display:flex;
+    justify-content: space-between;
+    border:1px solid #dbdbdb;
+    font-size: 11px;
+    border-radius: 5px;
+    background-color: transparent;
+    gap :40px;
+    padding :4px 8px;
+    font-size: 13px;;
+    width:60px;
+    height:40px;
+    border-radius: 10px;;
+}
+.center h4{
+    font-size: 18px;
+    font-weight : 500px;
+}
+.center h4 span{
+    font-size: 10px;
+    font-weight: 400px;
+    color:grey;
+}
+.center h3{
+    font-size:20px;
+}
+.bottom p{
+    font-weight:900px;
+    color:#b1acac;
+}
+.bottom{
+    margin-left: 10px;
+}
+.bottom button{
+    background-color: black;
+    color:white;
+
+}
